@@ -1,0 +1,42 @@
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.art-piece img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.art-piece p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.art-piece:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+}
+
+header {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+}
