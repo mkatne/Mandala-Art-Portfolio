@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandala Art Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mandala Art Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Mandala Art Collection</h2>
+            <div class="gallery-grid">
+                <div class="art-piece">
+                    <img src="Images/mandala1.jpg" alt="Mandala Artwork 1">
+                    <p>Mandala 1 - Digital</p>
+                </div>
+                <div class="art-piece">
+                    <img src="mandala2.jpg" alt="Mandala Artwork 2">
+                    <p>Mandala 2 - Watercolor</p>
+                </div>
+                <div class="art-piece">
+                    <img src="mandala3.jpg" alt="Mandala Artwork 3">
+                    <p>Mandala 3 - Pencil</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome! I'm a mandala artist who loves to create intricate, calming designs that help bring peace and balance to people's lives. My art is influenced by...</p>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process">
+            <h2>My Process</h2>
+            <p>Each mandala starts with an idea and a sketch. I use a variety of mediums, including digital software and traditional tools, to bring each design to life. Here's a step-by-step look at how I create a mandala...</p>
+            <img src="step-by-step-process.jpg" alt="Mandala Creation Process">
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Interested in commissioning a mandala? Feel free to reach out!</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mandala Art Portfolio. All Rights Reserved.</p>
+        <p>Follow me on <a href="https://instagram.com/yourprofile">Instagram</a></p>
+    </footer>
+</body>
+</html>
